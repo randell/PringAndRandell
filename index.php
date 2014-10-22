@@ -48,10 +48,10 @@
                 afterLoad: function(anchorLink, index){
                     //using anchorLink
                     if (anchorLink == 'SaveTheDate') {
-                    	$.backstretch("assets/images/Chromatic10Hand.jpg");
+                    	$.backstretch("assets/images/Chromatic10Hand.jpg", { speed: 3000 });
                     }
                     if (anchorLink == 'OurStory') {
-                    	$.backstretch("assets/images/Chromatic10Kiss.jpg");
+                    	$.backstretch("assets/images/Chromatic10Kiss.jpg", { speed: 3000 });
                     }
                 }
             });
