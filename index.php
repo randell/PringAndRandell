@@ -27,9 +27,48 @@
   </head>
   <body>
     <div id="fullpage">
-        <div class="section">WHATEVER</div>
-        <div class="section">WHATEVER</div>
-        <div class="section">WHATEVER</div>
+        <div class="section">
+            <div class="section-wrapper">
+                <div class="section-content ">
+                    <h3>Page 1</h3>
+                    <p>Duis arcu tortor, suscipit eget, imperdiet nec, imperdiet iaculis, ipsum. Vivamus laoreet. Curabitur turpis.</p>
+                    <p>Duis arcu tortor, suscipit eget, imperdiet nec, imperdiet iaculis, ipsum. Vivamus laoreet. Curabitur turpis.</p>
+                    <p>Duis arcu tortor, suscipit eget, imperdiet nec, imperdiet iaculis, ipsum. Vivamus laoreet. Curabitur turpis.</p>
+                </div>
+            </div>
+        </div>
+        <div class="section">
+            <div class="section-wrapper">
+                <div class="section-content">
+                    <h3>Page 2</h3>
+                    <p>Duis arcu tortor, suscipit eget, imperdiet nec, imperdiet iaculis, ipsum. Vivamus laoreet. Curabitur turpis.</p>
+                    <p>Duis arcu tortor, suscipit eget, imperdiet nec, imperdiet iaculis, ipsum. Vivamus laoreet. Curabitur turpis.</p>
+                    <p>Duis arcu tortor, suscipit eget, imperdiet nec, imperdiet iaculis, ipsum. Vivamus laoreet. Curabitur turpis.</p>
+                    <p>Duis arcu tortor, suscipit eget, imperdiet nec, imperdiet iaculis, ipsum. Vivamus laoreet. Curabitur turpis.</p>
+                    <p>Duis arcu tortor, suscipit eget, imperdiet nec, imperdiet iaculis, ipsum. Vivamus laoreet. Curabitur turpis.</p>
+                    <p>Duis arcu tortor, suscipit eget, imperdiet nec, imperdiet iaculis, ipsum. Vivamus laoreet. Curabitur turpis.</p>
+                    <p>Duis arcu tortor, suscipit eget, imperdiet nec, imperdiet iaculis, ipsum. Vivamus laoreet. Curabitur turpis.</p>
+                    <p>Duis arcu tortor, suscipit eget, imperdiet nec, imperdiet iaculis, ipsum. Vivamus laoreet. Curabitur turpis.</p>
+                    <p>Duis arcu tortor, suscipit eget, imperdiet nec, imperdiet iaculis, ipsum. Vivamus laoreet. Curabitur turpis.</p>
+                    <p>Duis arcu tortor, suscipit eget, imperdiet nec, imperdiet iaculis, ipsum. Vivamus laoreet. Curabitur turpis.</p>
+                    <p>Duis arcu tortor, suscipit eget, imperdiet nec, imperdiet iaculis, ipsum. Vivamus laoreet. Curabitur turpis.</p>
+                    <p>Duis arcu tortor, suscipit eget, imperdiet nec, imperdiet iaculis, ipsum. Vivamus laoreet. Curabitur turpis.</p>
+                    <p>Duis arcu tortor, suscipit eget, imperdiet nec, imperdiet iaculis, ipsum. Vivamus laoreet. Curabitur turpis.</p>
+                    <p>Duis arcu tortor, suscipit eget, imperdiet nec, imperdiet iaculis, ipsum. Vivamus laoreet. Curabitur turpis.</p>
+                    <p>Duis arcu tortor, suscipit eget, imperdiet nec, imperdiet iaculis, ipsum. Vivamus laoreet. Curabitur turpis.</p>
+                </div>
+            </div>
+        </div>
+        <div class="section">
+            <div class="section-wrapper">
+                <div class="section-content">
+                    <h3>Page 3</h3>
+                    <p>Duis arcu tortor, suscipit eget, imperdiet nec, imperdiet iaculis, ipsum. Vivamus laoreet. Curabitur turpis.</p>
+                    <p>Duis arcu tortor, suscipit eget, imperdiet nec, imperdiet iaculis, ipsum. Vivamus laoreet. Curabitur turpis.</p>
+                    <p>Duis arcu tortor, suscipit eget, imperdiet nec, imperdiet iaculis, ipsum. Vivamus laoreet. Curabitur turpis.</p>
+                </div>
+            </div>
+        </div>
     </div>
   
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
@@ -48,12 +87,13 @@
                 afterLoad: function(anchorLink, index){
                     //using anchorLink
                     if (anchorLink == 'SaveTheDate') {
-                    	$.backstretch("assets/images/Chromatic10Hand.jpg", { speed: 3000 });
+                    	$.backstretch("assets/images/Chromatic10Hand.jpg", { speed: 1000 });
                     }
                     if (anchorLink == 'OurStory') {
-                    	$.backstretch("assets/images/Chromatic10Kiss.jpg", { speed: 3000 });
+                    	$.backstretch("assets/images/Chromatic10Kiss.jpg", { speed: 1000 });
                     }
-                }
+                },
+                resize: false
             });
         });
     </script>
