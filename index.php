@@ -26,6 +26,8 @@
     <![endif]-->
   </head>
   <body>
+    <div class="background-image-overlay"></div>
+  
     <div id="fullpage">
         <div class="section">
             <div class="section-wrapper">
