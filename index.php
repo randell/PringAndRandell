@@ -26,12 +26,11 @@
     <![endif]-->
   </head>
   <body>
-    <div class="background-image-overlay"></div>
   
-    <div id="fullpage">
+    <div id="fullpage" class="pull-right">
         <div class="section">
             <div class="section-wrapper">
-                <div class="section-content ">
+                <div class="section-content">
                     <h3>Page 1</h3>
                     <p>Duis arcu tortor, suscipit eget, imperdiet nec, imperdiet iaculis, ipsum. Vivamus laoreet. Curabitur turpis.</p>
                     <p>Duis arcu tortor, suscipit eget, imperdiet nec, imperdiet iaculis, ipsum. Vivamus laoreet. Curabitur turpis.</p>
@@ -86,6 +85,7 @@
         	$.backstretch("assets/images/Chromatic10Hand.jpg");
             $('#fullpage').fullpage({
                 anchors: ['SaveTheDate', 'OurStory', 'Map'],
+                scrollOverflow: true,
                 afterLoad: function(anchorLink, index){
                     //using anchorLink
                     if (anchorLink == 'SaveTheDate') {
@@ -95,7 +95,7 @@
                     	$.backstretch("assets/images/Chromatic10Kiss.jpg", { speed: 1000 });
                     }
                 },
-                resize: false
+                resize: false,
             });
         });
     </script>

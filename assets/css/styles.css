@@ -7,40 +7,24 @@ body {
 .section {
 	width: 100%;
     min-height: 100%;
-	height: 100%;
-	display: block;
+	height: auto;
     position: relative;
-	text-align: right;
 }
 
 .section-wrapper {
 	width: 100%;
 	min-height: 100%;
 	height: 100%;
-    position: relative;
-	padding-right: 7%;
-	text-align: right;
+	padding-right: 12%;
+	display: table;
+	vertical-align: bottom;
+	padding-bottom: 20%;
 }
 
 .section-content {
-	width: 100%;
-	position: absolute;
-	bottom: 15%;
-	padding-right: 8%;
-}
-
-.background-image-overlay {
-    display:block;
-    position: fixed;
-    top:0;
-    left:0;
-    width:100%;
-    height:100%;
-    z-index:-100;
-    background: rgb(66,66,66);
-	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";       /* IE 8 */
-	filter: alpha(opacity=50);  /* IE 5-7 */
-	-moz-opacity: 0.5;          /* Netscape */
-	-khtml-opacity: 0.5;        /* Safari 1.x */
-	opacity: 0.5;               /* Good browsers */
+	height: 100%;
+	text-align: right;
+	bottom: 0;
+	display: table-cell;
+    vertical-align: bottom;
 }
