@@ -26,6 +26,7 @@
     <![endif]-->
   </head>
   <body>
+    <div class="overlay"></div>
   
     <div id="fullpage" class="pull-right">
         <div class="section">
