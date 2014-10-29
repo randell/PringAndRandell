@@ -29,20 +29,22 @@
     <div class="overlay"></div>
   
     <div id="fullpage" class="pull-right">
+    
         <div class="section">
             <div class="section-wrapper">
                 <div class="section-content">
-                    <h3>Page 1</h3>
+                    <h3>Save the date</h3>
                     <p>Duis arcu tortor, suscipit eget, imperdiet nec, imperdiet iaculis, ipsum. Vivamus laoreet. Curabitur turpis.</p>
                     <p>Duis arcu tortor, suscipit eget, imperdiet nec, imperdiet iaculis, ipsum. Vivamus laoreet. Curabitur turpis.</p>
                     <p>Duis arcu tortor, suscipit eget, imperdiet nec, imperdiet iaculis, ipsum. Vivamus laoreet. Curabitur turpis.</p>
                 </div>
             </div>
         </div>
+        
         <div class="section">
             <div class="section-wrapper">
                 <div class="section-content">
-                    <h3>Page 2</h3>
+                    <h3>Our story</h3>
                     <p>Duis arcu tortor, suscipit eget, imperdiet nec, imperdiet iaculis, ipsum. Vivamus laoreet. Curabitur turpis.</p>
                     <p>Duis arcu tortor, suscipit eget, imperdiet nec, imperdiet iaculis, ipsum. Vivamus laoreet. Curabitur turpis.</p>
                     <p>Duis arcu tortor, suscipit eget, imperdiet nec, imperdiet iaculis, ipsum. Vivamus laoreet. Curabitur turpis.</p>
@@ -61,16 +63,51 @@
                 </div>
             </div>
         </div>
+        
         <div class="section">
             <div class="section-wrapper">
                 <div class="section-content">
-                    <h3>Page 3</h3>
+                    <h3>Pre-nup</h3>
                     <p>Duis arcu tortor, suscipit eget, imperdiet nec, imperdiet iaculis, ipsum. Vivamus laoreet. Curabitur turpis.</p>
                     <p>Duis arcu tortor, suscipit eget, imperdiet nec, imperdiet iaculis, ipsum. Vivamus laoreet. Curabitur turpis.</p>
                     <p>Duis arcu tortor, suscipit eget, imperdiet nec, imperdiet iaculis, ipsum. Vivamus laoreet. Curabitur turpis.</p>
                 </div>
             </div>
         </div>
+        
+        <div class="section">
+            <div class="section-wrapper">
+                <div class="section-content">
+                    <h3>Entourage</h3>
+                    <p>Duis arcu tortor, suscipit eget, imperdiet nec, imperdiet iaculis, ipsum. Vivamus laoreet. Curabitur turpis.</p>
+                    <p>Duis arcu tortor, suscipit eget, imperdiet nec, imperdiet iaculis, ipsum. Vivamus laoreet. Curabitur turpis.</p>
+                    <p>Duis arcu tortor, suscipit eget, imperdiet nec, imperdiet iaculis, ipsum. Vivamus laoreet. Curabitur turpis.</p>
+                </div>
+            </div>
+        </div>
+        
+        <div class="section">
+            <div class="section-wrapper">
+                <div class="section-content">
+                    <h3>RSVP</h3>
+                    <p>Duis arcu tortor, suscipit eget, imperdiet nec, imperdiet iaculis, ipsum. Vivamus laoreet. Curabitur turpis.</p>
+                    <p>Duis arcu tortor, suscipit eget, imperdiet nec, imperdiet iaculis, ipsum. Vivamus laoreet. Curabitur turpis.</p>
+                    <p>Duis arcu tortor, suscipit eget, imperdiet nec, imperdiet iaculis, ipsum. Vivamus laoreet. Curabitur turpis.</p>
+                </div>
+            </div>
+        </div>
+        
+        <div class="section">
+            <div class="section-wrapper">
+                <div class="section-content">
+                    <h3>Map</h3>
+                    <p>Duis arcu tortor, suscipit eget, imperdiet nec, imperdiet iaculis, ipsum. Vivamus laoreet. Curabitur turpis.</p>
+                    <p>Duis arcu tortor, suscipit eget, imperdiet nec, imperdiet iaculis, ipsum. Vivamus laoreet. Curabitur turpis.</p>
+                    <p>Duis arcu tortor, suscipit eget, imperdiet nec, imperdiet iaculis, ipsum. Vivamus laoreet. Curabitur turpis.</p>
+                </div>
+            </div>
+        </div>
+        
     </div>
   
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
@@ -85,15 +122,22 @@
         $(document).ready(function() {
         	$.backstretch("assets/images/Chromatic10Hand.jpg");
             $('#fullpage').fullpage({
-                anchors: ['SaveTheDate', 'OurStory', 'Map'],
+                anchors: ['SaveTheDate', 'OurStory', 'Entourage', 'RSVP', 'Map'],
                 scrollOverflow: true,
                 afterLoad: function(anchorLink, index){
                     //using anchorLink
                     if (anchorLink == 'SaveTheDate') {
                     	$.backstretch("assets/images/Chromatic10Hand.jpg", { speed: 1000 });
-                    }
-                    if (anchorLink == 'OurStory') {
+                    } else if (anchorLink == 'OurStory') {
                     	$.backstretch("assets/images/Chromatic10Kiss.jpg", { speed: 1000 });
+                    } else if (anchorLink == 'Pre-nup') {
+                    	$.backstretch("assets/images/Chromatic10Randell.jpg", { speed: 1000 });
+                    } else if (anchorLink == 'Entourage') {
+                    	$.backstretch("assets/images/Chromatic10Pring.jpg", { speed: 1000 });
+                    } else if (anchorLink == 'RSVP') {
+                    	$.backstretch("assets/images/Chromatic10GettingMarried.jpg", { speed: 1000 });
+                    } else if (anchorLink == 'Map') {
+                    	$.backstretch("assets/images/Chromatic10Feet.jpg", { speed: 1000 });
                     }
                 },
                 resize: false,
