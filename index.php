@@ -33,7 +33,7 @@
         <div class="section">
             <div class="section-wrapper">
                 <div class="section-content">
-                    <h3>Save the date</h3>
+                    <h1>Save the date</h1>
                     <p>Duis arcu tortor, suscipit eget, imperdiet nec, imperdiet iaculis, ipsum. Vivamus laoreet. Curabitur turpis.</p>
                     <p>Duis arcu tortor, suscipit eget, imperdiet nec, imperdiet iaculis, ipsum. Vivamus laoreet. Curabitur turpis.</p>
                     <p>Duis arcu tortor, suscipit eget, imperdiet nec, imperdiet iaculis, ipsum. Vivamus laoreet. Curabitur turpis.</p>
