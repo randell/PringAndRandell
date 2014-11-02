@@ -99,3 +99,16 @@ iframe {
         font-size: 150%;
     }
 }
+
+@media screen and (max-width: 40em){
+    h1, h2, h3 {
+       font-size: 200%;
+    }
+    .names {
+        font-size: 170%;
+    }
+    
+    .location {
+        font-size: 140%;
+    }
+}
