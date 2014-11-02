@@ -33,7 +33,7 @@
         <div class="section">
             <div class="section-wrapper">
                 <div class="section-content">
-                    <h2>0 4 . 1 1 . 1 5</h2>
+                    <h2><abbr title="April 11, 2015">0 4 . 1 1 . 1 5</abbr></h2>
                     <br />
                     <div class="names">Pring &amp; Randell</div>
                     <div class="location">Two Gardens, Tagaytay</div>
