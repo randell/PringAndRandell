@@ -33,10 +33,10 @@
         <div class="section">
             <div class="section-wrapper">
                 <div class="section-content">
-                    <h1>Save the date</h1>
-                    <p>Duis arcu tortor, suscipit eget, imperdiet nec, imperdiet iaculis, ipsum. Vivamus laoreet. Curabitur turpis.</p>
-                    <p>Duis arcu tortor, suscipit eget, imperdiet nec, imperdiet iaculis, ipsum. Vivamus laoreet. Curabitur turpis.</p>
-                    <p>Duis arcu tortor, suscipit eget, imperdiet nec, imperdiet iaculis, ipsum. Vivamus laoreet. Curabitur turpis.</p>
+                    <h2>0 4 . 1 1 . 1 5</h2>
+                    <br />
+                    <div class="names">Pring &amp; Randell</div>
+                    <div class="location">Two Gardens, Tagaytay</div>
                 </div>
             </div>
         </div>
