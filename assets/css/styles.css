@@ -52,7 +52,6 @@ iframe {
 	vertical-align: bottom;
 	padding-bottom: 20%;
 	padding-top: 20%;
-    background: #f00;
 }
 
 .section-content {
@@ -62,7 +61,6 @@ iframe {
 	bottom: 0;
 	display: table-cell;
     vertical-align: bottom;
-	background: #f0f;
 }
 
 .overlay {
