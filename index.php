@@ -35,78 +35,12 @@
                 <div class="section-content">
                     <h2><abbr title="April 11, 2015">0 4 . 1 1 . 1 5</abbr></h2>
                     <br />
-                    <div class="names">Pring &amp; Randell</div>
+                    <div class="names">Pring&nbsp;&amp;&nbsp;Randell</div>
                     <div class="location">Two Gardens, Tagaytay</div>
                 </div>
             </div>
         </div>
         
-        <div class="section">
-            <div class="section-wrapper">
-                <div class="section-content">
-                    <h3>Our story</h3>
-                    <p>Duis arcu tortor, suscipit eget, imperdiet nec, imperdiet iaculis, ipsum. Vivamus laoreet. Curabitur turpis.</p>
-                    <p>Duis arcu tortor, suscipit eget, imperdiet nec, imperdiet iaculis, ipsum. Vivamus laoreet. Curabitur turpis.</p>
-                    <p>Duis arcu tortor, suscipit eget, imperdiet nec, imperdiet iaculis, ipsum. Vivamus laoreet. Curabitur turpis.</p>
-                    <p>Duis arcu tortor, suscipit eget, imperdiet nec, imperdiet iaculis, ipsum. Vivamus laoreet. Curabitur turpis.</p>
-                    <p>Duis arcu tortor, suscipit eget, imperdiet nec, imperdiet iaculis, ipsum. Vivamus laoreet. Curabitur turpis.</p>
-                    <p>Duis arcu tortor, suscipit eget, imperdiet nec, imperdiet iaculis, ipsum. Vivamus laoreet. Curabitur turpis.</p>
-                    <p>Duis arcu tortor, suscipit eget, imperdiet nec, imperdiet iaculis, ipsum. Vivamus laoreet. Curabitur turpis.</p>
-                    <p>Duis arcu tortor, suscipit eget, imperdiet nec, imperdiet iaculis, ipsum. Vivamus laoreet. Curabitur turpis.</p>
-                    <p>Duis arcu tortor, suscipit eget, imperdiet nec, imperdiet iaculis, ipsum. Vivamus laoreet. Curabitur turpis.</p>
-                    <p>Duis arcu tortor, suscipit eget, imperdiet nec, imperdiet iaculis, ipsum. Vivamus laoreet. Curabitur turpis.</p>
-                    <p>Duis arcu tortor, suscipit eget, imperdiet nec, imperdiet iaculis, ipsum. Vivamus laoreet. Curabitur turpis.</p>
-                    <p>Duis arcu tortor, suscipit eget, imperdiet nec, imperdiet iaculis, ipsum. Vivamus laoreet. Curabitur turpis.</p>
-                    <p>Duis arcu tortor, suscipit eget, imperdiet nec, imperdiet iaculis, ipsum. Vivamus laoreet. Curabitur turpis.</p>
-                    <p>Duis arcu tortor, suscipit eget, imperdiet nec, imperdiet iaculis, ipsum. Vivamus laoreet. Curabitur turpis.</p>
-                    <p>Duis arcu tortor, suscipit eget, imperdiet nec, imperdiet iaculis, ipsum. Vivamus laoreet. Curabitur turpis.</p>
-                </div>
-            </div>
-        </div>
-        
-        <div class="section">
-            <div class="section-wrapper">
-                <div class="section-content">
-                    <h3>Pre-nup</h3>
-                    <p>Duis arcu tortor, suscipit eget, imperdiet nec, imperdiet iaculis, ipsum. Vivamus laoreet. Curabitur turpis.</p>
-                    <p>Duis arcu tortor, suscipit eget, imperdiet nec, imperdiet iaculis, ipsum. Vivamus laoreet. Curabitur turpis.</p>
-                    <p>Duis arcu tortor, suscipit eget, imperdiet nec, imperdiet iaculis, ipsum. Vivamus laoreet. Curabitur turpis.</p>
-                </div>
-            </div>
-        </div>
-        
-        <div class="section">
-            <div class="section-wrapper">
-                <div class="section-content">
-                    <h3>Entourage</h3>
-                    <p>Duis arcu tortor, suscipit eget, imperdiet nec, imperdiet iaculis, ipsum. Vivamus laoreet. Curabitur turpis.</p>
-                    <p>Duis arcu tortor, suscipit eget, imperdiet nec, imperdiet iaculis, ipsum. Vivamus laoreet. Curabitur turpis.</p>
-                    <p>Duis arcu tortor, suscipit eget, imperdiet nec, imperdiet iaculis, ipsum. Vivamus laoreet. Curabitur turpis.</p>
-                </div>
-            </div>
-        </div>
-        
-        <div class="section">
-            <div class="section-wrapper">
-                <div class="section-content">
-                    <h3>RSVP</h3>
-                    <p>Duis arcu tortor, suscipit eget, imperdiet nec, imperdiet iaculis, ipsum. Vivamus laoreet. Curabitur turpis.</p>
-                    <p>Duis arcu tortor, suscipit eget, imperdiet nec, imperdiet iaculis, ipsum. Vivamus laoreet. Curabitur turpis.</p>
-                    <p>Duis arcu tortor, suscipit eget, imperdiet nec, imperdiet iaculis, ipsum. Vivamus laoreet. Curabitur turpis.</p>
-                </div>
-            </div>
-        </div>
-        
-        <div class="section">
-            <div class="section-wrapper">
-                <div class="section-content">
-                    <h3>Map</h3>
-                    <p>Duis arcu tortor, suscipit eget, imperdiet nec, imperdiet iaculis, ipsum. Vivamus laoreet. Curabitur turpis.</p>
-                    <p>Duis arcu tortor, suscipit eget, imperdiet nec, imperdiet iaculis, ipsum. Vivamus laoreet. Curabitur turpis.</p>
-                    <p>Duis arcu tortor, suscipit eget, imperdiet nec, imperdiet iaculis, ipsum. Vivamus laoreet. Curabitur turpis.</p>
-                </div>
-            </div>
-        </div>
         
     </div>
   
