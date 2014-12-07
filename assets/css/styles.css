@@ -14,7 +14,7 @@
 
 body {
 	color: #fff !important;
-	min-width: 328px;
+	min-width: 340px;
 }
 
 h1, h2, h3 {
@@ -92,7 +92,9 @@ iframe {
 
 /* Custom, iPhone Retina */ 
 @media only screen and (min-width : 320px) {
-    
+    #fullpage {
+        text-align: center;
+    }
     .section-wrapper {
         vertical-align: top;
     }
@@ -113,6 +115,9 @@ iframe {
 
 /* Extra Small Devices, Phones */ 
 @media only screen and (min-width : 480px) {
+    #fullpage {
+        text-align: center;
+    }
     .section-wrapper {
        vertical-align: top;
     }
@@ -133,6 +138,7 @@ iframe {
 
 /* Small Devices, Tablets */
 @media only screen and (min-width : 768px) {
+	
     .section-wrapper {
         vertical-align: bottom;
     }
