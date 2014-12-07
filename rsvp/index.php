@@ -16,7 +16,16 @@
     <!-- Custom fonts for this template -->
     <link href='http://fonts.googleapis.com/css?family=Lovers+Quarrel' rel='stylesheet' type='text/css'>
     <link href="/assets/css/jquery.fullPage.css" rel="stylesheet">
-    <link href="/assets/css/styles.css" rel="stylesheet">
+    <style>
+        iframe {
+            display:block;
+            position: fixed;
+            top:0;
+            left:0;
+            width:100%;
+            height:100%;
+        }
+    </style>
 
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->

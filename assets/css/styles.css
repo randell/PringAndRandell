@@ -14,7 +14,7 @@
 
 body {
 	color: #fff !important;
-	min-width: 320px;
+	min-width: 328px;
 }
 
 h1, h2, h3 {
@@ -41,18 +41,25 @@ iframe {
     min-height: 100%;
 	height: auto;
     position: relative;
+	background: #f00;
+	text-align: center;
+}
+
+#fullpage {
+    min-width: 360px;
 }
 
 .section-wrapper {
 	width: 100%;
 	min-height: 100%;
 	height: 100%;
-	padding-left: 18%;
-	padding-right: 18%;
+	padding-left: 20%;
+	padding-right: 20%;
 	display: table;
 	vertical-align: bottom;
-	padding-bottom: 30%;
+	padding-bottom: 35px;
 	padding-top: 20%;
+	
 }
 
 .section-content {
@@ -88,7 +95,7 @@ iframe {
 @media only screen and (min-width : 320px) {
     
     .section-wrapper {
-        vertical-align: bottom;
+        vertical-align: top;
     }
     .section-content {
         text-align: center;
@@ -131,13 +138,13 @@ iframe {
         vertical-align: bottom;
     }
     .section-content {
-        text-align: center;
+        text-align: right;
     }
     h1, h2, h3 {
-        font-size: 200%;
+        font-size: 250%;
     }
     .names {
-        font-size: 200%;
+        font-size: 300%;
     }
     .location {
         font-size: 120%;
