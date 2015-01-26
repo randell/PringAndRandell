@@ -9,3 +9,12 @@
     font-family: Rakesly;
     src: url('./fonts/rakesly-rg.ttf');
 }
+
+h1, h2, h3, h4, h5 {
+    font-family: Rakesly, 'Helvetica Neue', Arial, Helvetica, sans-serif;
+}
+
+p {
+    font-family: Alsscrp, 'Helvetica Neue', Arial, Helvetica, sans-serif;
+	font-size: 1.8em;
+}
