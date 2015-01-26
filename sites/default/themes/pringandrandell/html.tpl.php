@@ -27,7 +27,7 @@
 
     <div class="background-image-overlay"></div>
 
-    <div id="outer-background-container" data-default-background-img="<?php print base_path() . path_to_theme(); ?>/assets/images/other_images/bg5.jpg" style="background-image:url(<?php print base_path() . path_to_theme(); ?>/assets/images/other_images/bg5.jpg);"></div>
+    <div id="outer-background-container" data-default-background-img="<?php print base_path() . path_to_theme(); ?>/assets/images/Chromatic10Hand.jpg" style="background-image:url(<?php print base_path() . path_to_theme(); ?>/assets/images/Chromatic10Hand.jpg);"></div>
     <!-- end: #outer-background-container -->    
 
     <!-- Outer Container -->
@@ -68,7 +68,7 @@
     <!--[if lt IE 9]>
     <script type="text/javascript">
     $(document).ready(function(){
-      jQuery("#outer-background-container").backstretch("<?php print base_path() . path_to_theme(); ?>/assets/images/other_images/bg5.jpg");
+      jQuery("#outer-background-container").backstretch("<?php print base_path() . path_to_theme(); ?>/assets/images/Chromatic10Hand.jpg");
     });
     </script> 
     <![endif]-->  
