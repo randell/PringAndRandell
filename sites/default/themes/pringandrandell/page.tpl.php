@@ -98,8 +98,11 @@
 
 <ul id="main-menu">
   <li id="menu-item-save-the-date" class="menu-item scroll"><a href="#save-the-date">save the date</a></li>
+  <li id="menu-item-story" class="menu-item scroll"><a href="#story">our story</a></li>
   <li id="menu-item-details" class="menu-item scroll"><a href="#details">little details</a></li>
+  <li id="menu-item-entourage" class="menu-item scroll"><a href="#entourage">entourage</a></li>
   <li id="menu-item-map" class="menu-item scroll"><a href="#map">getting there</a></li>
+  <li id="menu-item-rsvp" class="menu-item scroll"><a href="#rsvp">rsvp</a></li>
 </ul><!-- #main-menu -->
 
 </section><!-- #left-sidebar -->
@@ -122,7 +125,21 @@
   </div><!-- .content-wrapper -->
 </article><!-- .section-wrapper -->
 
-<article id="details" class="section-wrapper clearfix" data-custom-background-img="<?php print base_path() . path_to_theme(); ?>/assets/images/Chromatic10GettingMarried.jpg">
+<article id="story" class="section-wrapper clearfix" data-custom-background-img="<?php print base_path() . path_to_theme(); ?>/assets/images/Chromatic10Pring.jpg">
+  <div class="content-wrapper clearfix">
+    <div class="col-sm-10 col-md-9 pull-right">
+
+        <h4>Our Story</h4>
+        <p>Nulla neque dolor, sagittis eget, iaculis quis, molestie non, velit. Nam pretium turpis et arcu. Aenean vulputate eleifend tellus. Vivamus laoreet. Ut leo.
+
+Vestibulum purus quam, scelerisque ut, mollis sed, nonummy id, metus. Donec elit libero, sodales nec, volutpat a, suscipit non, turpis. Etiam ut purus mattis mauris sodales aliquam. Pellentesque ut neque. In hac habitasse platea dictumst.
+</p>
+
+    </div><!-- .col-sm-10 -->
+  </div><!-- .content-wrapper -->
+</article><!-- .section-wrapper -->
+
+<article id="details" class="section-wrapper clearfix" data-custom-background-img="<?php print base_path() . path_to_theme(); ?>/assets/images/Chromatic10Kiss.jpg">
   <div class="content-wrapper clearfix">
     <div class="col-sm-10 col-md-9 pull-right">
 
@@ -139,6 +156,77 @@ Nothing more, nothing less.</p>
 P.S: It will be grassy and could be breezy.</p>
 
     </div><!-- .col-sm-10 -->
+  </div><!-- .content-wrapper -->
+</article><!-- .section-wrapper -->
+
+<article id="entourage" class="section-wrapper clearfix" data-custom-background-img="<?php print base_path() . path_to_theme(); ?>/assets/images/Chromatic10Pring.jpg">
+  <div class="content-wrapper clearfix">
+
+      <div id="features-carousel" class="carousel slide with-title-indicators max-height" data-height-percent="70" data-ride="carousel">
+        
+        <!-- Indicators - slide navigation -->
+        <ol class="carousel-indicators title-indicators">
+          <li data-target="#features-carousel" data-slide-to="0" class="active">Primary Sponsors</li>
+          <li data-target="#features-carousel" data-slide-to="1">Maids of Honor &amp; Bridesmaids</li>
+          <li data-target="#features-carousel" data-slide-to="2">Best Persons and Groomsmen</li>
+        </ol>
+
+        <!-- Wrapper for slides -->
+        <div class="carousel-inner">
+
+          <div class="item active">
+            <div class="carousel-text-content">
+              <h2 class="title">Primary Sponsors</h2>
+              <p>Suspendisse molestie lorem odio, sit amet. Duis dictum lorem metus, vitae dapibus risus imperdiet nec. Suspendisse molestie lorem odio.</p>
+              <p><a href="" onclick="populate_and_open_modal(event, 'modal-content-2');" class="btn btn-outline-inverse btn-sm">read more</a></p>
+
+              <div class="content-to-populate-in-modal" id="modal-content-2">
+                <h1>Lorem Ipsum</h1>
+                <p><img data-img-src="assets/images/other_images/transp-image1.png" class="lazy rounded_border hover_effect pull-left" alt="Lorem Ipsum">Etiam at ligula sit amet arcu laoreet consequat. Duis dictum lorem metus, vitae dapibus risus imperdiet nec. <a href="#">Suspendisse molestie lorem odio</a>, sit amet. </p>
+                <p>Laoreet consequat. Duis dictum lorem metus, vitae dapibus risus imperdiet nec. Suspendisse molestie lorem odio, sit amet.</p>
+                <p>Suspendisse molestie lorem odio, sit amet. Duis dictum lorem metus, vitae dapibus risus imperdiet nec. Suspendisse molestie lorem odio test.</p>
+              </div><!-- #modal-content-2 -->
+            </div>
+          </div><!-- .item -->
+
+          <div class="item">
+            <div class="carousel-text-content">
+              <h2 class="title">Maids of Honor &amp; Bridesmaids</h2>
+              <p>Fusce erat augue, fermentum sit amet congue a, ullamcorper ac enim. Maecenas id dolor imperdiet, mollis felis ut, pellentesque ante. Sed id congue arcu. Nulla eget commodo sem. Suspendisse suscipit, sem ac.</p>
+              <p><a href="" onclick="populate_and_open_modal(event, 'modal-content-4');" class="btn btn-outline-inverse btn-sm">read more</a></p>
+
+              <div class="content-to-populate-in-modal" id="modal-content-4">
+                <h1>Maecenas id dolor</h1>
+                <p><img data-img-src="assets/images/other_images/transp-image7.png" class="lazy rounded_border hover_effect pull-left" alt="Lorem Ipsum">Etiam at ligula sit amet arcu laoreet consequat. Duis dictum lorem metus, vitae dapibus risus imperdiet nec. <a href="#">Suspendisse molestie lorem odio</a>, sit amet. </p>
+                <p>Laoreet consequat. Duis dictum lorem metus, vitae dapibus risus imperdiet nec. Suspendisse molestie lorem odio, sit amet.</p>
+                <p>Suspendisse molestie lorem odio, sit amet. Duis dictum lorem metus, vitae dapibus risus imperdiet nec. Suspendisse molestie lorem odio test.</p>
+              </div><!-- #modal-content-4 -->
+            </div>
+          </div><!-- .item -->
+
+          <div class="item">
+            <div class="carousel-text-content">
+              <h2 class="title">Best Persons and Groomsmen</h2>
+              <p>Aenean a est fringilla, malesuada eros vel, condimentum augue. Sed lorem sapien, vestibulum quis nisl volutpat, fermentum adipiscing massa. Cras ac faucibus nisl. Proin ac convallis sapien. </p>
+              <p><a href="" onclick="populate_and_open_modal(event, 'modal-content-5');" class="btn btn-outline-inverse btn-sm">read more</a></p>
+
+              <div class="content-to-populate-in-modal" id="modal-content-5">
+                <h1>Sed scelerisque</h1>
+                <p><img data-img-src="assets/images/other_images/transp-image4.png" class="lazy rounded_border hover_effect pull-left" alt="Lorem Ipsum">Etiam at ligula sit amet arcu laoreet consequat. Duis dictum lorem metus, vitae dapibus risus imperdiet nec. <a href="#">Suspendisse molestie lorem odio</a>, sit amet. </p>
+                <p>Laoreet consequat. Duis dictum lorem metus, vitae dapibus risus imperdiet nec. Suspendisse molestie lorem odio, sit amet.</p>
+                <p>Suspendisse molestie lorem odio, sit amet. Duis dictum lorem metus, vitae dapibus risus imperdiet nec. Suspendisse molestie lorem odio test.</p>
+              </div><!-- #modal-content-5 -->
+            </div>
+          </div><!-- .item -->
+
+        </div><!-- .carousel-inner -->
+
+        <!-- Controls -->
+        <a class="left carousel-control" href="#features-carousel" data-slide="prev"></a>
+        <a class="right carousel-control" href="#features-carousel" data-slide="next"></a>
+
+      </div><!-- #about-carousel -->
+
   </div><!-- .content-wrapper -->
 </article><!-- .section-wrapper -->
 
@@ -166,6 +254,58 @@ P.S: It will be grassy and could be breezy.</p>
         </div><!-- .carousel-inner -->
 
       </div><!-- #about-carousel -->
+
+  </div><!-- .content-wrapper -->
+</article><!-- .section-wrapper -->
+
+<article id="rsvp" class="section-wrapper clearfix" data-custom-background-img="<?php print base_path() . path_to_theme(); ?>/assets/images/Chromatic10Randell.jpg">
+  <div class="content-wrapper clearfix">
+    
+      <h1 class="section-title">RSVP</h1>
+
+        <!-- CONTACT DETAILS -->
+        <div class="contact-details col-sm-5 col-md-3">
+          
+        </div>
+        <!-- END: CONTACT DETAILS -->
+      
+        <!-- CONTACT FORM -->
+        <div class="col-sm-7 col-md-9">
+          <!-- IMPORTANT: change the email address at the top of the assets/php/mail.php file to the email address that you want this form to send to -->
+          <form class="form-style validate-form clearfix" action="<?php print base_path() . path_to_theme(); ?>/assets/php/mail.php" method="POST" role="form">
+
+            <!-- form left col -->
+            <div class="col-md-6">
+              <div class="form-group">
+                <input type="text" class="text-field form-control validate-field required" data-validation-type="string" id="form-name" placeholder="Full Name" name="name">
+              </div>  
+              <div class="form-group">
+                <input type="email" class="text-field form-control validate-field required" data-validation-type="email" id="form-email" placeholder="Email Address" name="email">
+              </div>
+              <div class="form-group">
+                <input type="tel" class="text-field form-control validate-field phone" data-validation-type="phone" id="form-contact-number" placeholder="Contact Number" name="contact_number">
+              </div>    
+              <div class="form-group text-right">
+                <img id="form-captcha-img" src="<?php print base_path() . path_to_theme(); ?>/assets/php/form_captcha/captcha_img.php">
+                <input type="text" class="text-field form-control validate-field required" data-validation-type="captcha" id="form-captcha" placeholder="Enter text" name="captcha">
+                <span id="form-captcha-refresh" class="fa fa-refresh" title="Reload"></span>
+              </div>                                   
+            </div><!-- end: form left col -->
+
+            <!-- form right col -->
+            <div class="col-md-6">
+              <div class="form-group">
+                <textarea placeholder="Message..." class="form-control validate-field required" name="message"></textarea>
+              </div> 
+              <div class="form-group">
+                <img src="<?php print base_path() . path_to_theme(); ?>/assets/images/theme_images/loader-form.GIF" class="form-loader">
+                <button type="submit" class="btn btn-sm btn-outline-inverse">Submit</button>
+              </div> 
+              <div class="form-group form-general-error-container"></div>           
+            </div><!-- end: form right col -->
+
+          </form>
+        </div><!-- end: CONTACT FORM -->
 
   </div><!-- .content-wrapper -->
 </article><!-- .section-wrapper -->
