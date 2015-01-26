@@ -115,6 +115,7 @@
           <h1><abbr title="April 11, 2015">04.11.15</abbr></h1>
           <p>Pring &amp; Randell</p>
           <p>Two Gardens, Tagaytay</p>
+          <p><a href="#details" class="link-scroll btn btn-outline-inverse btn-lg">find out more</a></p>
         </section>
 
     </div><!-- .col-sm-10 -->
