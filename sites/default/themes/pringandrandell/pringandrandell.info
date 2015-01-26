@@ -1,0 +1,45 @@
+name = Pring and Randell
+description = HTML5, Responsive theme.
+; screenshot = screenshot.png
+core = "7.x"
+project = "Pring and Randell"
+engine = phptemplate
+
+; Custom styles
+;stylesheets[all][] = assets/css/main.css
+;stylesheets[screen][] = assets/css/jquery.fancybox-1.3.4.css
+;stylesheets[all][] = assets/css/bootstrap-datetimepicker.min.css
+;stylesheets[all][] = assets/css/chosen.css
+;stylesheets[all][] = assets/css/prism.css
+
+; Bootstrap core CSS -->
+stylesheets[all][] = assets/bootstrap/css/bootstrap.min.css
+
+; Bootstrap theme
+stylesheets[all][] = assets/bootstrap/css/bootstrap-theme.min.css
+    
+; owl carousel css
+stylesheets[all][] = assets/js/owl-carousel/owl.carousel.css
+stylesheets[all][] = assets/js/owl-carousel/owl.theme.css
+stylesheets[all][] = assets/js/owl-carousel/owl.transitions.css
+
+; intro animations
+stylesheets[all][] = assets/js/wow/animate.css
+
+; font awesome -->
+stylesheets[all][] = assets/css/font-awesome/css/font-awesome.min.css
+
+; lightbox
+stylesheets[all][] = assets/js/lightbox/css/lightbox.css
+
+; styles for this template
+stylesheets[all][] = assets/css/styles.css
+
+; place your extra custom styles in this file
+stylesheets[all][] = assets/css/custom.css
+
+; Drupal-required regions go here. See http://goo.gl/AI8Uxo
+regions[content] = Content
+regions[help] = Help
+regions[page_top] = Page top
+regions[page_bottom] = Page bottom

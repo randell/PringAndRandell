@@ -1,0 +1,11 @@
+/* It is recommended to place all your extra/additional CSS rules here */
+
+@font-face {
+    font-family: Alsscrp;
+    src: url('./fonts/alsscrp.ttf');
+}
+
+@font-face {
+    font-family: Rakesly;
+    src: url('./fonts/rakesly-rg.ttf');
+}
