@@ -169,6 +169,7 @@ P.S: It will be grassy and could be breezy.</p>
           <li data-target="#features-carousel" data-slide-to="0" class="active">Primary Sponsors</li>
           <li data-target="#features-carousel" data-slide-to="1">Maids of Honor &amp; Bridesmaids</li>
           <li data-target="#features-carousel" data-slide-to="2">Best Persons and Groomsmen</li>
+          <li data-target="#features-carousel" data-slide-to="3">Little Bloomies</li>
         </ol>
 
         <!-- Wrapper for slides -->
@@ -181,10 +182,21 @@ P.S: It will be grassy and could be breezy.</p>
               <p><a href="" onclick="populate_and_open_modal(event, 'modal-content-2');" class="btn btn-outline-inverse btn-sm">read more</a></p>
 
               <div class="content-to-populate-in-modal" id="modal-content-2">
-                <h1>Lorem Ipsum</h1>
-                <p><img data-img-src="assets/images/other_images/transp-image1.png" class="lazy rounded_border hover_effect pull-left" alt="Lorem Ipsum">Etiam at ligula sit amet arcu laoreet consequat. Duis dictum lorem metus, vitae dapibus risus imperdiet nec. <a href="#">Suspendisse molestie lorem odio</a>, sit amet. </p>
-                <p>Laoreet consequat. Duis dictum lorem metus, vitae dapibus risus imperdiet nec. Suspendisse molestie lorem odio, sit amet.</p>
-                <p>Suspendisse molestie lorem odio, sit amet. Duis dictum lorem metus, vitae dapibus risus imperdiet nec. Suspendisse molestie lorem odio test.</p>
+                <p>Kuya Christian &amp; Ate Melty Kagayutan<br />
+                Kuya Wewey &amp; Ate Pam Delos Santos<br />
+                Ninong Raffy &amp; Ninang Aunor Baldueza<br />
+                Ninong Em Dapat<br />
+                Sir Jun Santera<br />
+                Tito Jon Naguit<br />
+                Tito Arnel Naguit<br />
+                Tito Carlos Wycoco<br />
+                Uncle Lando Palgan<br />
+                Doc Saras Polce<br />
+                Mommy Grace Robles<br />
+                Tita Che Euste<br />
+                Mommy Tek Sicat<br />
+                Ate Leizl Serquina<br />
+                Tita Tessie Borcena</p>
               </div><!-- #modal-content-2 -->
             </div>
           </div><!-- .item -->
@@ -196,10 +208,14 @@ P.S: It will be grassy and could be breezy.</p>
               <p><a href="" onclick="populate_and_open_modal(event, 'modal-content-4');" class="btn btn-outline-inverse btn-sm">read more</a></p>
 
               <div class="content-to-populate-in-modal" id="modal-content-4">
-                <h1>Maecenas id dolor</h1>
-                <p><img data-img-src="assets/images/other_images/transp-image7.png" class="lazy rounded_border hover_effect pull-left" alt="Lorem Ipsum">Etiam at ligula sit amet arcu laoreet consequat. Duis dictum lorem metus, vitae dapibus risus imperdiet nec. <a href="#">Suspendisse molestie lorem odio</a>, sit amet. </p>
-                <p>Laoreet consequat. Duis dictum lorem metus, vitae dapibus risus imperdiet nec. Suspendisse molestie lorem odio, sit amet.</p>
-                <p>Suspendisse molestie lorem odio, sit amet. Duis dictum lorem metus, vitae dapibus risus imperdiet nec. Suspendisse molestie lorem odio test.</p>
+                <h4>Maids of Honor</h4>
+                <p>Ikay &amp; Zarah</p>
+                <h4>Bridesmaids</h4>
+                <p>DetDet<br/>
+                Jaja R.<br />
+                Shy-Shy<br />
+                Mara<br />
+                Jaja W.</p>
               </div><!-- #modal-content-4 -->
             </div>
           </div><!-- .item -->
@@ -211,10 +227,36 @@ P.S: It will be grassy and could be breezy.</p>
               <p><a href="" onclick="populate_and_open_modal(event, 'modal-content-5');" class="btn btn-outline-inverse btn-sm">read more</a></p>
 
               <div class="content-to-populate-in-modal" id="modal-content-5">
-                <h1>Sed scelerisque</h1>
-                <p><img data-img-src="assets/images/other_images/transp-image4.png" class="lazy rounded_border hover_effect pull-left" alt="Lorem Ipsum">Etiam at ligula sit amet arcu laoreet consequat. Duis dictum lorem metus, vitae dapibus risus imperdiet nec. <a href="#">Suspendisse molestie lorem odio</a>, sit amet. </p>
-                <p>Laoreet consequat. Duis dictum lorem metus, vitae dapibus risus imperdiet nec. Suspendisse molestie lorem odio, sit amet.</p>
-                <p>Suspendisse molestie lorem odio, sit amet. Duis dictum lorem metus, vitae dapibus risus imperdiet nec. Suspendisse molestie lorem odio test.</p>
+                <h4>Best Woman</h4>
+                <p>Phoebe</p>
+                <h4>Best Man</h4>
+                <p>Steep</p>
+                <h4>Groomsmen</h4>
+                <p>Bok<br />
+                Renz<br />
+                Patrick<br />
+                Miko<br />
+                Rico</p>
+              </div><!-- #modal-content-5 -->
+            </div>
+          </div><!-- .item -->
+          
+          <div class="item">
+            <div class="carousel-text-content">
+              <h2 class="title">Little Bloomies</h2>
+              <p>Aenean a est fringilla, malesuada eros vel, condimentum augue. Sed lorem sapien, vestibulum quis nisl volutpat, fermentum adipiscing massa. Cras ac faucibus nisl. Proin ac convallis sapien. </p>
+              <p><a href="" onclick="populate_and_open_modal(event, 'modal-content-6');" class="btn btn-outline-inverse btn-sm">read more</a></p>
+
+              <div class="content-to-populate-in-modal" id="modal-content-6">
+                <h4>Flower Girls</h4>
+                <p>Kate<br />
+                Apple<br />
+                Minzy<br />
+                Bluebell</p>
+                <h4>Bearers</h4>
+                <p>Yance<br />
+                R.A.<br />
+                Kyre</p>
               </div><!-- #modal-content-5 -->
             </div>
           </div><!-- .item -->
