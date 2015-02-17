@@ -7,7 +7,7 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-	<?php print $head; ?>
+	<?php // print $head; ?>
     <title><?php print $head_title; ?></title>
 
     <!-- favicon -->
