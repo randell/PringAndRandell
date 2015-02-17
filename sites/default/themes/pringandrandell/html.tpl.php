@@ -11,7 +11,6 @@
     <title><?php print $head_title; ?></title>
 
     <!-- favicon -->
-    <link rel="icon" type="image/png" href="<?php print base_path() . path_to_theme(); ?>/assets/images/other_images/favicon.png">
     <link href='http://fonts.googleapis.com/css?family=Lovers+Quarrel' rel='stylesheet' type='text/css'>
 	<?php print $styles; ?>
 	<?php print $scripts; ?>
