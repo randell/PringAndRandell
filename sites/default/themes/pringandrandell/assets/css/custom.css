@@ -27,3 +27,7 @@ p {
     font-family: Alsscrp, 'Helvetica Neue', Arial, Helvetica, sans-serif !important;
     font-size: 1.5em;
 }
+
+input, button, select, textarea {
+	color: #000;
+}
